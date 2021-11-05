@@ -1,7 +1,7 @@
 <?php
 include("./inc/settings.php");
 validar();
-
+//echo $query
 $pdo = new PDO('mysql:host=localhost;dbname=' . $dbname, $username, $password);
 
 if (isset($_POST['colum1'])) {

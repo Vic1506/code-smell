@@ -17,5 +17,6 @@ if (isset($_POST['colum1'])) {
   echo "Algo salio mal <a href='https://localhost/crud/crud.php'> clic aqui para volver al crud</a>" ;
 
 }
-
+ //echo $query
+  //$query = "DELETE FROM table1 WHERE column1=:id;";
 ?>

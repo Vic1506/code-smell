@@ -8,6 +8,7 @@ if (empty($_SESSION["nombre"]))
   <?php
   exit();
 }
+//echo $query;
 ?>
 <?php
 
